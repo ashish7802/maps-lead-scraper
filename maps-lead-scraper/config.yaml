@@ -1,0 +1,11 @@
+# Google Maps Lead Scraper Configuration
+
+# Browser settings
+headless: true  # Run browser in headless mode (no GUI)
+
+# Scraping settings
+scroll_pause: 2  # Pause duration (seconds) between scrolls to load more results
+max_results: 50  # Default maximum number of results to scrape
+
+# Export settings
+output_dir: outputs  # Default output directory for exported files
